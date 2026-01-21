@@ -1,20 +1,32 @@
 package primeiro_programa_java;
 
+import java.util.Date;
+
 public class Pessoa {
 
 	private String nome;
 	
 	public int getIdade() {
-		return idade;
+		return Idade;
 	}
 
 	public void setIdade(int idade) {
-		this.idade = idade;
+		this.Idade = idade;
 	}
 
-	private String sobrenome;
+	private String Sobrenome;
 	
-	private int idade;
+	private int Idade;
+	
+	public Date getDateNascimento() {
+		return DateNascimento;
+	}
+
+	public void setDateNascimento(Date dateNascimento) {
+		DateNascimento = dateNascimento;
+	}
+
+	private Date DateNascimento;
 
 	public String getNome() {
 		return nome;
@@ -25,11 +37,11 @@ public class Pessoa {
 	}
 
 	public String getSobrenome() {
-		return sobrenome;
+		return Sobrenome;
 	}
 
 	public void setSobrenome(String sobrenome) {
-		this.sobrenome = sobrenome;
+		this.Sobrenome = sobrenome;
 	}
 	
 	
